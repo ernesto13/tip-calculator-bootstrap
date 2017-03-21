@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tip calculator Bootstrap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Aclonica" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container" id="calculator">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xs-12">
+                <div id="total" class="txt">
+                    <span class="glyphicon glyphicon-search" aria-hidden="true">Total:</span>
+                    <input id="tot" type="number" class="form-control" placeholder="enter total bill">
+                </div>
+                <div id="tip" class="txt">Tip:
+                    <input id="percent" type="number" class="form-control" placeholder="enter tip %">
+                </div>
+                <div class="txt">Guests:
+                    <input id="guest" type="number" class="form-control" placeholder="optional">
+                </div>
+                <button type="button" id="btnClear" class="btn btn-danger btn-md" onclick="clear">
+                        <i class="fa fa-refresh fa-spin fa-2x fa-fw"></i>
+                        <span class="sr-only">Loading...</span>
+                    </button>
+                <button type="button" id="btnCal" class="btn btn-success btn-md pull-right " onclick="calculate()">
+                        <i class="fa fa-check-circle fa-2x" aria-hidden="true"></i>
+                    </span>
+                </button>
+            </div>
+            <!--main content-->
+        </div>
+        <!--row-->
+
+        <div id="percentage" class="txt fad text-center"></div>
+
+        <div id="totalOutPut" class="txt fad text-center"></div>
+        <div id="party" class="txt fad text-center"></div>
+    </div>
+    <!--end of container-->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js'></script>
+    <script src="js/index.js"></script>
+</body>

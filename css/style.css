@@ -1,0 +1,86 @@
+.container {
+    width: 380px;
+    height: 325px;
+    /*
+    height: 550px;*/
+    background-color: #65615a;
+    margin: 40px auto;
+    border: 2px solid black;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    border-radius: 30px;
+    -webkit-box-shadow: 0px 2px 7px 5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 2px 7px 5px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 2px 7px 5px rgba(0, 0, 0, 0.75);
+}
+
+#line {
+    width: 325px;
+    height: 1px;
+    top: 50px;
+    left: 25px;
+    background-color: blue;
+    position: relative;
+}
+
+.txt {
+    top: 50px;
+    font-size: 30px;
+    color: black;
+    position: relative;
+    left: 23px;
+}
+
+body {
+    background-color: #3d3d42;
+    font-family: 'Aclonica', sans-serif;
+}
+
+.form-control {
+    width: 150px;
+    float: right;
+    top: 0;
+    position: relative;
+    left: -50px;
+    font-size: 18px;
+}
+
+.btn-success {
+    top: 80px;
+    position: relative;
+    left: -50px;
+    font-size: 17px;
+    width: 80px;
+}
+
+.btn-danger {
+    top: 80px;
+    position: relative;
+    left: 50px;
+    font-size: 17px;
+    width: 80px;
+}
+
+#totalOutPut {
+    top: 90px;
+    position: relative;
+    left: 0;
+    display: none;
+}
+
+#percentage {
+    top: 90px;
+    position: relative;
+    left: 0;
+}
+
+#party {
+    top: 90px;
+    position: relative;
+    left: 0;
+}
+
+.fad {
+    display: none;
+}
