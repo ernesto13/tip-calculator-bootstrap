@@ -1,6 +1,18 @@
 $(document).ready(function() {
     $("#btnCal").click(function() {
         $(".fad").fadeIn(2000);
+        /*
+                $(document).ready(function() {
+
+                    $('input').focus(function() {
+
+                        $(this).css('outline-color', '#FF0000');
+
+                    });
+
+
+
+                });*/
         var total = parseFloat(document.getElementById("tot").value);
 
         var tip = parseFloat(document.getElementById("percent").value) * 0.01;
